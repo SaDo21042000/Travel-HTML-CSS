@@ -1,0 +1,94 @@
+/* Below tablet: Mobile */
+@media screen and (max-width: 739px) {
+}
+
+/* Tablet -PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+/* Large screen*/
+@media screen and (min-width: 1024px) {
+}
+
+/* ------------------------------------ */
+
+/* header */
+.navbar {
+}
+
+.navbar-brand {
+  padding: 6.25px;
+  box-sizing: border-box;
+}
+
+.navbar-brand img {
+  vertical-align: middle;
+  height: 100%;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav form {
+  border: solid 1px orange;
+  height: 50px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.navbar-nav form input:nth-child(1) {
+  padding: 0 25px;
+  height: 100%;
+  width: 58%;
+}
+
+.navbar-nav form input:nth-child(2) {
+   
+    padding: 0 25px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .navbar-nav form i:nth-child(3) {
+   
+    padding: 0 25px;
+    height: 100%;
+    position: absolute;
+    top: 15px;
+    left: 190px;
+    font-size: 22px;
+  }
+
+.account {
+    padding: 0 11px;
+    font-size: 22px;
+}
+
+.account a i {
+   
+    font-size: 22px;
+}
+
+.nav-item {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.navbar-nav {
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
