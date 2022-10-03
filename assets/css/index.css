@@ -14,16 +14,19 @@
 
 /* header */
 .navbar {
+  background-color: white;
 }
 
 .navbar-brand {
   padding: 6.25px;
   box-sizing: border-box;
+  max-width: 150px;
 }
 
 .navbar-brand img {
   vertical-align: middle;
   height: 100%;
+  max-width: 100%;
 }
 
 .navbar-collapse {
@@ -39,8 +42,9 @@
 }
 
 .navbar-nav form {
-  border: solid 1px orange;
+  border: 2px solid #ffc709;
   height: 50px;
+  border-radius: 5px;
   box-sizing: border-box;
   position: relative;
 }
@@ -48,42 +52,95 @@
 .navbar-nav form input:nth-child(1) {
   padding: 0 25px;
   height: 100%;
-  width: 58%;
+  width: 80%;
+  box-sizing: border-box;
+  border: none;
+}
+
+.navbar-nav form input:nth-child(1):focus {
+  outline: none;
 }
 
 .navbar-nav form input:nth-child(2) {
-   
-    padding: 0 25px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-  }
+  padding: 0 25px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: white;
+}
 
-  .navbar-nav form i:nth-child(3) {
-   
-    padding: 0 25px;
-    height: 100%;
-    position: absolute;
-    top: 15px;
-    left: 190px;
-    font-size: 22px;
-  }
+.navbar-nav form i:nth-child(3) {
+  position: absolute;
+  top: 15px;
+  left: 210px;
+  font-size: 18px;
+  border: none;
+}
 
 .account {
-    padding: 0 11px;
-    font-size: 22px;
+  padding: 0 11px;
+  font-size: 22px;
 }
 
 .account a i {
-   
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .nav-item {
-  font-weight: bold;
+  /*font-weight: bold;
   padding: 10px;
+  font-size: 13px;*/
+  margin: 0 8px;
+  position: relative;
+  padding: 10px 0;
 }
 
+.nav-item a {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 137%;
+  left: 0;
+  padding: 0;
+  width: max-content;
+  background-color: white;
+  padding: 10px 0;
+  min-width: 200px;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 5px;
+  display: none;
+}
+
+
+.dropdown-item {
+  /*text-decoration: none;*/
+  list-style-type: none;
+  padding: 10px 0px;
+  
+}
+
+
+.dropdown-item  a {
+  padding: 5px 20px;
+  font-weight: 400;;
+  font-size: 13px;
+   line-height: 24px;
+   display: block;
+   box-sizing: border-box;
+   width: 100%;
+}
+
+.dropdown-item a:hover {
+  background-color: #e9ecef;
+}
 .navbar-nav {
 }
 
@@ -91,4 +148,16 @@
   display: flex;
   align-items: center;
   padding: 0 15px;
+  /*line-height: 40px;*/
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
 }
