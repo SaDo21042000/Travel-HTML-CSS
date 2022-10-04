@@ -1,3 +1,15 @@
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.position-relative {
+  position: relative;
+}
+
 :root {
     --white-color: #fff;
     --black-color: #000;
@@ -18,7 +30,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: lightgray;
+    /*background-color: lightgray;*/
 }
 
 .left {
@@ -31,7 +43,8 @@ body {
 
 /* Responsive */
 .grid {
-    width: 1200px;
+    /*width: 1200px;*/
+    width: 100%;
     max-width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
@@ -42,7 +55,7 @@ body {
     box-sizing: border-box;
   }
   
-  .grid__row {
+  .row {
     display: flex;
     flex-wrap: wrap;
     margin-left: -5px;
@@ -50,82 +63,82 @@ body {
     box-sizing: border-box;
   }
   
-  .grid__column-2 {
+  .col-2 {
     padding-left: 5px;
     padding-right: 5px;
     width: 16.6667%;
     box-sizing: border-box;
   }
   
-  .grid__column-3 {
+  .col-3 {
     padding-left: 5px;
     padding-right: 5px;
     width: 25%;
     box-sizing: border-box;
   }
-  .grid__column-4 {
+  .col-4 {
     padding-left: 5px;
     padding-right: 5px;
     width: 33.34%;
     box-sizing: border-box;
   }
   
-  .grid__column-5 {
+  .col-5 {
     padding-left: 5px;
     padding-right: 5px;
     width: 41.67%;
     box-sizing: border-box;
   }
-  .grid__column-6 {
+  .col-6 {
     padding-left: 5px;
     padding-right: 5px;
     width: 50%;
     box-sizing: border-box;
   }
-  .grid__column-7 {
+  .col-7 {
     padding-left: 5px;
     padding-right: 5px;
     width: 58.34%;
     box-sizing: border-box;
   }
   
-  .grid__column-8 {
+  .col-8 {
     padding-left: 5px;
     padding-right: 5px;
     width: 66.67%;
     box-sizing: border-box;
   }
   
-  .grid__column-9 {
+  .col-9 {
     padding-left: 5px;
     padding-right: 5px;
     width: 75%;
     box-sizing: border-box;
   }
   
-  .grid__column-10 {
+  .col-10 {
     padding-left: 5px;
     padding-right: 5px;
     width: 83.3334%;
     box-sizing: border-box;
   }
   
-  .grid__column-11 {
+  .col-11 {
     padding-left: 5px;
     padding-right: 5px;
     width: 91.67%;
     box-sizing: border-box;
   }
   
-  .grid__column-12 {
+  .col-12 {
     padding-left: 5px;
     padding-right: 5px;
     width: 100%;
     box-sizing: border-box;
   }
   
-  /* show 5 column: 12/5=2.4 (before use this column take it into grid-row) */
-  .grid__column-2-4 {
+  /* show 5 col: 12/5=2.4 (before use this col take it into grid-row) */
+  .col-2-4 {
     padding-left: 5px;
     padding-right: 5px;
     width: 20%;

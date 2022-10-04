@@ -32,7 +32,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item" onclick="toggleNavbar(this)" >
+                        <li class="nav-item" onclick="toggleNavbar(this)">
                             <a href="#" class="dropdown-toggle">Vận chuyển</a>
                             <ul class="dropdown-menu">
                                 <li class="dropdown-item">
@@ -45,7 +45,7 @@
                         </li>
                         <li class="nav-item" onclick="toggleNavbar(this)">
                             <a href="#" class="dropdown-toggle">Tin Tức</a>
-                            <ul class="dropdown-menu" >
+                            <ul class="dropdown-menu">
                                 <li class="dropdown-item">
                                     <a href="#">Tin mới</a>
                                 </li>
@@ -62,7 +62,7 @@
                         </li>
                         <li class="nav-item" onclick="toggleNavbar(this)">
                             <a href="#" class="dropdown-toggle">Khuyến mãi</a>
-                            <ul class="dropdown-menu" >
+                            <ul class="dropdown-menu">
                                 <li class="dropdown-item">
                                     <a href="#">Mua tour trả chậm 0%</a>
                                 </li>
@@ -78,7 +78,7 @@
                                 <li class="dropdown-item">
                                     <a href="#">Hoàn tiền BIDV</a>
                                 </li>
-                                </ul>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a href="#">VietravelPlus</a>
@@ -115,7 +115,10 @@
                 <div class="home-page__banner banner">
                     <div class="carousel-inner">
                         <div class="banner-image">
-                            <a href=""></a>
+                            <a href="">
+                                <img src="./assets/images/sl_220818_kv_kmthu_bannerweb-1920_570px_180822.jpg"
+                                    alt="KHUYẾN MẠI THU">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -126,10 +129,157 @@
                 <div class="container">
                     <nav>
                         <div class="searchbox-nav">
-
+                            <button class="searchbox-nav__item">
+                                <i class="fas fa-dice-four"></i>
+                                Tour du lịch
+                                <br>
+                                trọn gói
+                            </button>
+                            <button class="searchbox-nav__item">
+                                <i class="fas fa-hotel"></i>
+                                Khách sạn
+                                <small class="badge btn-danger">Ưu đãi hot</small>
+                            </button>
+                            <button class="searchbox-nav__item">
+                                <span><i class="fas fa-plane-departure"></i>
+                                    <i class="fas fa-hotel"></i></span>
+                                Combo
+                                <br>
+                                Vé máy bay + Khách sạn
+                            </button>
+                            <button class="searchbox-nav__item">
+                                <span> <i class="fas fa-car-alt"></i>
+                                    <i class="fas fa-hotel"></i></span>
+                                Combo
+                                <br>
+                                Xe + Khách sạn
+                            </button>
+                            <button class="searchbox-nav__item">
+                                <i class="fas fa-plane-departure"></i>
+                                Vé máy bay
+                            </button>
+                            <button class="searchbox-nav__item">
+                                <i class="fas fa-search"></i>
+                                Tra cứu Booking
+                            </button>
                         </div>
-                        <div class="searchbox-panel tab-content">
-                            <div class="tab-pane"></div>
+                        <div class="tab-content searchbox__panel">
+                            <div class="tab-pane">
+                                <div class="tab-pane__container">
+                                    <div class="searchbox-tour">
+                                        <div class="searchbox-tour__selector">
+                                            <ul>
+                                                <li>
+                                                    <button class="active">Du lịch trong nước</button>
+                                                </li>
+                                                <li>
+                                                    <button>Du lịch nước ngoài</button>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="tab-content">
+                                        <div class="tab-pane">
+                                            <div class="searchbox-tour__inbound">
+                                                <div class="searchbox-tour__inbound__nav">
+                                                    <div class="nav nav-tabs">
+                                                        <button class="nav-link active">Tour trọn gói</button> </button>
+                                                        <button class="nav-link">Tour gia đình</button> </button>
+                                                        <button class="nav-link">Tour xuyên Việt</button> </button>
+                                                    </div>
+
+                                                </div>
+                                                <div class="tab-content">
+                                                    <div class="tab-pane">
+                                                        <form action="">
+                                                            <div class="grid">
+                                                                <div class="row">
+                                                                    <div class="col-6">
+                                                                        <div class="row">
+                                                                            <div class="col-5">
+                                                                                <div class="inut-search-location">
+                                                                                    <div
+                                                                                        class="d-flex align-items-center">
+                                                                                        <div>
+                                                                                            <i
+                                                                                                class="fas fa-map-marker-alt"></i>
+                                                                                        </div>
+                                                                                        <div class="position-relative">
+                                                                                            <label>Điểm đi</label>
+                                                                                            <span class="selection">TP.
+                                                                                                Hồ Chí Minh</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-2">
+                                                                                <i class="fas fa-exchange-alt"></i>
+                                                                            </div>
+                                                                            <div class="col-5">
+                                                                                <div class="inut-search-location">
+                                                                                    <div
+                                                                                        class="d-flex align-items-center">
+                                                                                        <div>
+                                                                                            <i
+                                                                                                class="fas fa-map-marker-alt"></i>
+                                                                                        </div>
+                                                                                        <div class="position-relative">
+                                                                                            <label>Điểm đi</label>
+                                                                                            <span class="selection">TP.
+                                                                                                Hồ Chí Minh</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-3">
+                                                                        <div class="inut-search-location">
+                                                                            <div class="d-flex align-items-center">
+                                                                                <div>
+                                                                                    <i
+                                                                                        class="fas fa-map-marker-alt"></i>
+                                                                                </div>
+                                                                                <div class="position-relative">
+                                                                                    <label>Điểm đi</label>
+                                                                                    <span class="selection">TP. Hồ Chí
+                                                                                        Minh</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-2">
+                                                                        <div class="inut-search-location">
+                                                                            <div class="d-flex align-items-center">
+                                                                                <div>
+                                                                                    <i
+                                                                                        class="fas fa-map-marker-alt"></i>
+                                                                                </div>
+                                                                                <div class="position-relative">
+                                                                                    <label>Điểm đi</label>
+                                                                                    <span class="selection">TP. Hồ Chí
+                                                                                        Minh</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-1">
+                                                                        <button>
+                                                                            <i class="fas fa-arrow-right"></i>
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                             <div class="tab-pane"></div>
                             <div class="tab-pane"></div>
                         </div>
