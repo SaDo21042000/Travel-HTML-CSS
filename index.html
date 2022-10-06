@@ -8,7 +8,12 @@
     <title>Travel</title>
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/index.css" />
+    <!--<link rel="stylesheet" href="./assets/css/carousel.css" />-->
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0-web/css/all.min.css" />
+
+
+
+
 </head>
 
 <body>
@@ -163,7 +168,7 @@
                                 Tra cứu Booking
                             </button>
                         </div>
-                        <div class="tab-content searchbox__panel">
+                        <div class="tab-content searchbox__panel fade">
                             <div class="tab-pane">
                                 <div class="tab-pane__container">
                                     <div class="searchbox-tour">
@@ -193,78 +198,86 @@
                                                 <div class="tab-content">
                                                     <div class="tab-pane">
                                                         <form action="">
-                                                            <div class="grid">
-                                                                <div class="row">
-                                                                    <div class="col-6">
-                                                                        <div class="row">
-                                                                            <div class="col-5">
-                                                                                <div class="inut-search-location">
+                                                            <div class="grid container">
+                                                                <div class="grid__row">
+                                                                    <div class="grid__col-6">
+                                                                        <div class="grid__row destination-selector">
+                                                                            <div class="grid__col-5">
+                                                                                <div class="input-search-location">
                                                                                     <div
                                                                                         class="d-flex align-items-center">
-                                                                                        <div>
+                                                                                        <div class="icon">
                                                                                             <i
                                                                                                 class="fas fa-map-marker-alt"></i>
                                                                                         </div>
-                                                                                        <div class="position-relative">
-                                                                                            <label>Điểm đi</label>
-                                                                                            <span class="selection">TP.
+                                                                                        <div
+                                                                                            class="position-relative  text">
+                                                                                            <label class="d-block">Điểm
+                                                                                                đi</label>
+                                                                                            <span
+                                                                                                class="selection d-block">TP.
                                                                                                 Hồ Chí Minh</span>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="col-2">
+                                                                            <div class="grid__col-2 exchange-icon ">
                                                                                 <i class="fas fa-exchange-alt"></i>
                                                                             </div>
-                                                                            <div class="col-5">
-                                                                                <div class="inut-search-location">
+                                                                            <div class="grid__col-5">
+                                                                                <div class="input-search-location">
                                                                                     <div
                                                                                         class="d-flex align-items-center">
-                                                                                        <div>
+                                                                                        <div class="icon">
                                                                                             <i
                                                                                                 class="fas fa-map-marker-alt"></i>
                                                                                         </div>
-                                                                                        <div class="position-relative">
-                                                                                            <label>Điểm đi</label>
-                                                                                            <span class="selection">TP.
-                                                                                                Hồ Chí Minh</span>
+                                                                                        <div
+                                                                                            class="position-relative  text">
+                                                                                            <label class="d-block">Điểm
+                                                                                                đến</label>
+                                                                                            <span
+                                                                                                class="selection d-block">Hãy
+                                                                                                chọn điểm đến</span>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-3">
-                                                                        <div class="inut-search-location">
+                                                                    <div class="grid__col-3">
+                                                                        <div class="input-search-location">
                                                                             <div class="d-flex align-items-center">
-                                                                                <div>
+                                                                                <div class="icon">
                                                                                     <i
                                                                                         class="fas fa-map-marker-alt"></i>
                                                                                 </div>
-                                                                                <div class="position-relative">
-                                                                                    <label>Điểm đi</label>
-                                                                                    <span class="selection">TP. Hồ Chí
-                                                                                        Minh</span>
+                                                                                <div class="position-relative  text">
+                                                                                    <label class="d-block">Ngày
+                                                                                        đi</label>
+                                                                                    <span
+                                                                                        class="selection d-block">05-10-2022</span>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-2">
-                                                                        <div class="inut-search-location">
+                                                                    <div class="grid__col-2">
+                                                                        <div class="input-search-location">
                                                                             <div class="d-flex align-items-center">
-                                                                                <div>
+                                                                                <div class="icon">
                                                                                     <i
                                                                                         class="fas fa-map-marker-alt"></i>
                                                                                 </div>
-                                                                                <div class="position-relative">
-                                                                                    <label>Điểm đi</label>
-                                                                                    <span class="selection">TP. Hồ Chí
-                                                                                        Minh</span>
+                                                                                <div class="position-relative  text">
+                                                                                    <label class="d-block">Số ngày
+                                                                                    </label>
+                                                                                    <span class="selection d-block">Tất
+                                                                                        cả</span>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-1">
+                                                                    <div class="grid__col-1 btn-arrow">
                                                                         <button>
                                                                             <i class="fas fa-arrow-right"></i>
                                                                         </button>
@@ -291,15 +304,194 @@
             <!-- other section -->
             <div class="main-section">
                 <div class="container">
+
                     <section class="home-page_promotion">
 
                     </section>
 
                     <section class="home-page__explore-tour">
-
+                        <h4 class="home-page__title">Khám phá sản phẩm Vietravel</h4>
+                        <div class="explore-tour__list">
+                            <div>
+                                <div>
+                                    <div class="explore-tour-slide slick-slider">
+                                        <div class="slick-list draggable">
+                                            <div class="slick-track">
+                                                <div class="explore-tour__item">
+                                                    <div class="explore-tour__item__image">
+                                                        <a href="">
+                                                            <img src="./assets/images/du-lich-ket-hop-hanh-huong.jpg"
+                                                                alt="">
+                                                        </a>
+                                                        <div class="card-img-overlay">
+                                                            <h5 class="card-title">
+                                                                <a href="">[Mới] Du lịch kết hợp hành hương</a>
+                                                            </h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="explore-tour__item">
+                                                    <div class="explore-tour__item__image">
+                                                        <a href="">
+                                                            <img src="./assets/images/bn_220906_du lich tet am lich.png"
+                                                                alt="">
+                                                        </a>
+                                                        <div class="card-img-overlay">
+                                                            <h5 class="card-title">
+                                                                <a href="">Vietravel đã có tour Tết Quý Mão 2023 !</a>
+                                                            </h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="explore-tour__item">
+                                                    <div class="explore-tour__item__image">
+                                                        <a href="">
+                                                            <img src="./assets/images/bn_220512_statue-liberty-and-american-flag-new-york.jpg"
+                                                                alt="">
+                                                        </a>
+                                                        <div class="card-img-overlay">
+                                                            <h5 class="card-title">
+                                                                <a href="">Du lịch thăm thân tại Mỹ - Canada</a>
+                                                            </h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="explore-tour__item">
+                                                    <div class="explore-tour__item__image">
+                                                        <a href="">
+                                                            <img src="./assets/images/bn_220519_94b3105afb92d6c20ed49ff9755c7b2d.jpg"
+                                                                alt="">
+                                                        </a>
+                                                        <div class="card-img-overlay">
+                                                            <h5 class="card-title">
+                                                                <a href="">Xứ sở xa hoa Dubai-Abu Dhabi</a>
+                                                            </h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="explore-tour__item">
+                                                    <div class="explore-tour__item__image">
+                                                        <a href="">
+                                                            <img src="./assets/images/bn_220715_RUNG TRAM TRA SU (3).jpg"
+                                                                alt="">
+                                                        </a>
+                                                        <div class="card-img-overlay">
+                                                            <h5 class="card-title">
+                                                                <a href="">Đến với miền Tây mến khách</a>
+                                                            </h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="explore-tour__item">
+                                                    <div class="explore-tour__item__image">
+                                                        <a href="">
+                                                            <img src="./assets/images/bn_220518_a64f32eb-2f13-47d8-832f-ac6262743f8c.jpg"
+                                                                alt="">
+                                                        </a>
+                                                        <div class="card-img-overlay">
+                                                            <h5 class="card-title">
+                                                                <a href="">Dưới bầu trời Tây Âu thơ mộng</a>
+                                                            </h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </section>
 
-                    <section class="home-page__last-deal">
+                    <section class="home-page__last-deal last-deal">
+                        <h4 class="home-page__title">Ưu đãi tour giờ chót</h4>
+                        <div class="container grid">
+                            <div class="grid__row">
+                                <div class="grid__col-4">
+                                    <div class="tour-item">
+                                        <div style="position:relative;">
+                                            <div class="tour-item__image">
+                                                <a href="">
+                                                    <img src="./assets/images/last-deal-p1.jpg" alt="">
+                                                </a>
+                                                <div class="inner-icon__favorite">
+                                                    <input type="hidden">
+                                                    <a href="">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="inner-bottom">
+                                                    <span class="inner__bottom__category">
+                                                        <i class="fas fa-hand-holding-usd"></i>
+                                                        Giờ chót
+                                                    </span>
+                                                   
+                                                </div>
+                                                <div class="inner-summary">
+                                                    <div class="inner-summary__rating">
+                                                        <span>
+                                                            9.4
+                                                        </span>
+                                                    </div>
+                                                    <div class="inner-summary__review">
+                                                        <h6 class="inner-summary__feedback">Tuyệt vời</h6>
+                                                        <p class="inner-summary__care">358 quan tâm</p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="tour-item__date">08/10/2022 - 2 ngày</p>
+                                            <p class="tour-item__title">
+                                                <a href="">Miền Tây - Mỹ Tho - Bến Tre - Cần Thơ ( Thiên Đường Nghỉ
+                                                    Dưỡng Cần Thơ Eco Resort) - Trải nghiệm hồ bơi nước mặn lớn nhất
+                                                    Đồng Bằng Sông Cửu Long</a>
+                                            </p>
+                                            <div class="tour-item__code">
+                                                <div>Mã tour:</div>
+                                                <div>
+                                                    <i class="fas fa-ticket-alt"></i>
+                                                    NDSGN831-076-081022XE-D
+                                                </div>
+                                            </div>
+                                            <p class="tour-item__departure">Nơi khởi hành: TP. Hồ Chí Minh</p>
+                                            <div class="tour-item__price">
+                                                <div class="tour-item__price__wrapper">
+                                                    <div class="tour-item__price--old">
+                                                        Giá
+                                                        <span class="tour-item__price--old__number">2,390,000₫</span>
+                                                    </div>
+                                                    <div class="tour-item__price--current">
+                                                        <span
+                                                            class="tour-item__price--current__number">2,190,000₫</span>
+                                                        <span class="tour-item__price--current__discount">8%
+                                                            GIẢM</span>
+                                                    </div>
+                                                    <div class="tour-item__price__timer">
+                                                        <span>Còn 00 ngày 19:39:41</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tour-item__footer">
+                                            <div class="tour-item__footer__add-to-compare">
+                                                <i class="fas fa-plus-circle"></i>
+                                                <input type="hidden" value="">
+                                                <a href="#">Thêm vào so sánh</a>
+                                            </div>
+                                            <div class="tour-item__footer__available-seat">
+                                                <span class="tour-item__footer__available-seat--text">Số chỗ
+                                                    còn</span>
+                                                <span class="tour-item__footer__available-seat--number">4</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
 
                     </section>
 
@@ -345,6 +537,7 @@
 
 
     <script src="./assets/javascript/index.js"></script>
+    <!--<script src="./assets/javascript/carousel.js"></script>-->
 </body>
 
 </html>

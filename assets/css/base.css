@@ -1,6 +1,9 @@
 .d-flex {
   display: flex;
 }
+.d-block {
+  display: block;
+}
 
 .align-items-center {
   align-items: center;
@@ -11,137 +14,139 @@
 }
 
 :root {
-    --white-color: #fff;
-    --black-color: #000;
-    --text-color: #333;
-    --primary-color: rgb(238, 77, 45);
-    --border-color: #dbdbdb;
-    --star-gold-color: #FFCE3E;
-    --navbar-height: 34px;
-    --header-height: 120px;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --primary-color: rgb(238, 77, 45);
+  --border-color: #dbdbdb;
+  --star-gold-color: #ffce3e;
+  --navbar-height: 34px;
+  --header-height: 120px;
 }
 
-*{
-    font-family: roboto,sans-serif;
-    font-size: 15px;
-    
+* {
+  font-family: roboto, sans-serif;
+  font-size: 15px;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    /*background-color: lightgray;*/
+  padding: 0;
+  margin: 0;
+  /*background-color: lightgray;*/
 }
 
 .left {
-    float: left;
+  float: left;
 }
 
 .right {
-    float: right;
+  float: right;
 }
 
 /* Responsive */
 .grid {
-    /*width: 1200px;*/
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
-  
-  .grid__full-width {
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -5px;
-    margin-right: -5px;
-    box-sizing: border-box;
-  }
-  
-  .col-2 {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 16.6667%;
-    box-sizing: border-box;
-  }
-  
-  .col-3 {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 25%;
-    box-sizing: border-box;
-  }
-  .col-4 {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 33.34%;
-    box-sizing: border-box;
-  }
-  
-  .col-5 {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 41.67%;
-    box-sizing: border-box;
-  }
-  .col-6 {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 50%;
-    box-sizing: border-box;
-  }
-  .col-7 {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 58.34%;
-    box-sizing: border-box;
-  }
-  
-  .col-8 {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 66.67%;
-    box-sizing: border-box;
-  }
-  
-  .col-9 {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 75%;
-    box-sizing: border-box;
-  }
-  
-  .col-10 {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 83.3334%;
-    box-sizing: border-box;
-  }
-  
-  .col-11 {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 91.67%;
-    box-sizing: border-box;
-  }
-  
-  .col-12 {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-  /* show 5 col: 12/5=2.4 (before use this col take it into grid-row) */
-  .col-2-4 {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 20%;
-    box-sizing: border-box;
-  }
-  
+  /*width: 1200px;*/
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.grid__full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.grid__col-2 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 16.6667%;
+  box-sizing: border-box;
+}
+
+.grid__col-3 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 25%;
+  box-sizing: border-box;
+}
+.grid__col-4 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 33.34%;
+  box-sizing: border-box;
+}
+
+.grid__col-5 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 41.67%;
+  box-sizing: border-box;
+}
+.grid__col-6 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 50%;
+  box-sizing: border-box;
+}
+.grid__col-7 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 58.34%;
+  box-sizing: border-box;
+}
+
+.grid__col-8 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 66.67%;
+  box-sizing: border-box;
+}
+
+.grid__col-9 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 75%;
+  box-sizing: border-box;
+}
+
+.grid__col-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 83.333333333%;
+  box-sizing: border-box;
+}
+
+.grid__col-11 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 91.67%;
+  box-sizing: border-box;
+}
+
+.grid__col-12 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* show 5 col: 12/5=2.4 (before use this col take it into grid-row) */
+.grid__col-2-4 {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 20%;
+  box-sizing: border-box;
+}
