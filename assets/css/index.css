@@ -850,12 +850,13 @@
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
   border-radius: 10px;
   box-sizing: border-box;
+  margin-bottom: 30px;
   /*position: relative;*/
 }
 
 .product-item:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-  transform: translate(0,-3px);
+  transform: translate(0, -3px);
 }
 
 .product-item__image {
@@ -997,15 +998,13 @@
   display: flex;
   justify-content: end;
   flex-direction: column;
-
 }
 
 .product-item__summary__price .price-min {
   font-size: 15px;
   font-weight: 700;
   text-align: right;
-  
-} 
+}
 
 .product-item__summary__price {
 }
@@ -1019,7 +1018,6 @@
   font-weight: 700;
   color: #fd5056;
   display: inline;
-  
 }
 
 .product-item__summary__price--current_text {
@@ -1032,14 +1030,12 @@
   text-align: right;
 }
 
-
-
 .product-item__summary .grid-modify__padding {
   padding: 0 15px;
 }
-.product-item__summary .grid-modify__margin{
- margin: 0 -15px;
- margin-bottom: 20px;
+.product-item__summary .grid-modify__margin {
+  margin: 0 -15px;
+  margin-bottom: 20px;
 }
 
 .product-item__btn--other-date {
@@ -1048,13 +1044,13 @@
   color: #4d4aef;
   font-size: 12px;
   display: inline;
-  float: right; 
+  float: right;
   border-radius: 5px;
   line-height: 18px;
   cursor: pointer;
 }
 
-.product-item__btn--other-date:hover { 
+.product-item__btn--other-date:hover {
   background-color: #4d4aef;
   color: white;
 }
@@ -1069,24 +1065,142 @@
   cursor: pointer;
   line-height: 26.25px;
   font-weight: 400;
-  
 }
 
 .product-item__btn--order-now:hover {
- border-color: #ca4045;
- background-color: #d74449;
+  border-color: #ca4045;
+  background-color: #d74449;
 }
 
-
-
-.product-item__btn--order-now label{
+.product-item__btn--order-now label {
   font-size: 17.5px;
 }
 
 .product-item__summary__price-promotion {
-    color: #4d4aef;
-    text-align: right;
-    font-weight: 400;
-    margin: 0 0 10px;
+  color: #4d4aef;
+  text-align: right;
+  font-weight: 400;
+  margin: 0 0 10px;
+}
 
+/* home page destination */
+.home-page__destination {
+}
+
+.home-page__destination .container {
+}
+
+.destination-item {
+}
+
+.destination-item__img a img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.destination-item .card-body {
+  padding: 20px;
+}
+
+.destination-item__title {
+  margin: 0 0 10px;
+}
+
+.destination-item__title a {
+  text-decoration: none;
+  color: #2d4271;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.destination-item__title a:hover {
+  color: #4d4aef;
+}
+
+.destination-item__description {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* home page why  viettravel*/
+
+.home-page__why-vietravel {
+}
+
+.home-page__why-vietravel .container {
+}
+
+.why-item {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.why-item i {
+  /*background-image: linear-gradient(180deg,#4d4aef,#adabff);*/
+  color: #2d4271;
+  font-size: 80px;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+
+.why-item__title {
+  font-weight: 700;
+  font-size: 17px;
+  color: #2d4271;
+  margin: 0 0 20px;
+}
+
+.why-item .card-text {
+  margin: 0 0 5px;
+  font-size: 15px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f9f9f9;
+  padding-top: 45px;
+}
+
+.footer-top .container {
+  max-width: 1320px;
+}
+
+.footer-top__element {
+}
+.footer-top__element.two-line {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-top__element.one-line {
+  
+}
+
+.footer-top__element--title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  width: 100%;
+  margin: 0 0 10px;
+}
+
+.footer-top__element .menu {
+  width: 40%;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-top__element .menu-item {
+  list-style-type: none;
+}
+
+.footer-top__element .menu-item a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: #2d4271;
 }
