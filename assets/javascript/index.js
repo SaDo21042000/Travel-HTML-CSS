@@ -75,10 +75,6 @@ const wrapper = document.querySelector(".slick-list");
 let isMouseDown = false;
 let startX, scrollLeft;
 let imageExploreTour = document.getElementsByClassName('explore-tour__item-img')
-//[imageExploreTour].forEach((e) => {
-//  e.draggable = false;
-//  console.log(e.draggable);
-//})
 
 Array.from(imageExploreTour).forEach((img) => {
   img.draggable = false;
@@ -90,7 +86,11 @@ wrapper.addEventListener("mousedown", (e) => {
   isMouseDown = true;
   startX = e.pageX - wrapper.offsetLeft;
   scrollLeft = wrapper.scrollLeft;
+  console.log(wrapper)
 });
+
+
+
 
 wrapper.addEventListener("mouseleave", () => {
   isMouseDown = false;
