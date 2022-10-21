@@ -133,14 +133,11 @@
 .dropdown-item a:hover {
   background-color: #e9ecef;
 }
-.navbar-nav {
-}
 
 .container-fluid {
   display: flex;
   align-items: center;
   padding: 0 15px;
-  /*line-height: 40px;*/
 }
 
 .dropdown-toggle::after {
@@ -157,12 +154,6 @@
 /*homepage-banner*/
 .home-page__banner {
   position: relative;
-}
-
-.banner {
-}
-
-.banner-image {
 }
 
 .banner-image a img {
@@ -238,9 +229,6 @@
   margin-bottom: 10px;
 }
 
-.searchbox__panel {
-}
-
 .tab-pane__container {
   padding: 30px;
 }
@@ -257,17 +245,11 @@
   margin-bottom: 30px;
 }
 
-.searchbox-tour__selector {
-}
-
 .searchbox-tour__selector ul {
   margin: 0;
   list-style-type: none;
   display: flex;
   padding: 0;
-}
-
-.searchbox-tour__selector ul li {
 }
 
 .searchbox-tour__selector ul li button {
@@ -320,9 +302,6 @@
   bottom: 5px;
 }
 
-.searchbox-tour__inbound {
-}
-
 .searchbox-tour__inbound__content {
   padding: 30px 15px;
   display: none;
@@ -370,9 +349,6 @@
   border-bottom: 2px solid #4d4aef !important;
 }
 
-.grid.container {
-}
-
 .destination-selector {
   flex-wrap: nowrap;
 }
@@ -418,9 +394,6 @@
   font-size: 34px;
 }
 
-.tab-pane .btn-arrow {
-}
-
 .tab-pane .btn-arrow button {
   padding: 10px 20px;
   border: 1px solid transparent;
@@ -450,9 +423,6 @@
 }
 
 /* home page explore */
-.home-page__explore-tour {
-}
-
 .home-page__title {
   font-weight: 700;
   font-size: 30px;
@@ -480,9 +450,6 @@
 
 .slick-list:-webkit-scrollbar {
   width: 0;
-}
-
-.draggable {
 }
 
 .slick-track {
@@ -553,13 +520,6 @@
 }
 
 /* Last deal */
-.home-page__last-deal {
-}
-
-.last-deal .container {
-  /*padding: 30px 15px 0 15px;*/
-}
-
 .tour-item {
   border-radius: 10px;
   border: 1px solid #dddfe2;
@@ -649,12 +609,6 @@
 .tour-item__price__wrapper {
   line-height: 24px;
   font-size: 15px;
-}
-
-.tour-item__price--old {
-}
-
-.tour-item__price--old span {
 }
 
 .tour-item__price--old__number {
@@ -762,9 +716,6 @@
   font-size: 22px;
   color: #fff;
   line-height: 22px;
-}
-
-.tour-item .inner-icon__favorite a {
 }
 
 .tour-item .inner-bottom {
@@ -879,19 +830,11 @@
 }
 
 /* home page combo */
-
-.home-page__combo {
-}
-
-.home-page__combo .container {
-}
-
 .product-item {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
   border-radius: 10px;
   box-sizing: border-box;
   margin-bottom: 30px;
-  /*position: relative;*/
 }
 
 .product-item:hover {
@@ -911,7 +854,6 @@
 
 .product-item__detail {
   padding: 20px;
-  /*margin-bottom: 10px;*/
 }
 
 .product-item__detail__category {
@@ -1003,9 +945,6 @@
   left: 0;
 }
 
-.product-item__detail__review--feedback {
-}
-
 .product-item__detail__review--feedback h6 {
   margin: 0;
   font-size: 20px;
@@ -1047,9 +986,6 @@
   font-size: 15px;
   font-weight: 700;
   text-align: right;
-}
-
-.product-item__summary__price {
 }
 
 .product-item__summary__price--current {
@@ -1127,15 +1063,6 @@
 }
 
 /* home page destination */
-.home-page__destination {
-}
-
-.home-page__destination .container {
-}
-
-.destination-item {
-}
-
 .destination-item__img {
   height: 207px;
 }
@@ -1172,20 +1099,12 @@
 }
 
 /* home page why  viettravel*/
-
-.home-page__why-vietravel {
-}
-
-.home-page__why-vietravel .container {
-}
-
 .why-item {
   margin-bottom: 40px;
   text-align: center;
 }
 
 .why-item i {
-  /*background-image: linear-gradient(180deg,#4d4aef,#adabff);*/
   color: #2d4271;
   font-size: 80px;
   line-height: 80px;
@@ -1205,7 +1124,6 @@
 }
 
 /* Footer */
-
 footer {
   background-color: #f9f9f9;
   padding-top: 45px;
@@ -1215,9 +1133,6 @@ footer {
   max-width: 1320px;
 }
 
-.footer-top__element {
-}
-
 .footer-top__block {
   margin-bottom: 40px;
 }
@@ -1225,9 +1140,6 @@ footer {
 .footer-top__element.two-line {
   display: flex;
   flex-wrap: wrap;
-}
-
-.footer-top__element.one-line {
 }
 
 .footer-top__element--title {
@@ -1299,9 +1211,6 @@ footer {
   padding: 0 20px 0 0;
 }
 
-.social-item a {
-}
-
 .social-item a i {
   font-size: 25px;
   color: #2d4271;
@@ -1326,7 +1235,6 @@ footer {
 }
 
 .call-action a i {
-  /*background-color: #fe291e;*/
   color: #fff;
   font-size: 22px;
   cursor: pointer;
@@ -1394,12 +1302,8 @@ footer {
   cursor: pointer;
 }
 
-.search.form {
-}
-
 .securi-payment {
   display: flex;
-  /*justify-content: flex-start;*/
 }
 
 .securi {
@@ -1434,9 +1338,6 @@ footer {
 }
 
 /* Tab */
-
-.tab {
-}
 .searchbox-nav .tab-item {
 }
 
@@ -1465,14 +1366,15 @@ footer {
     margin: 0 auto;
     box-sizing: border-box;
   }
+
   .navbar-collapse {
     display: none;
-    /*justify-content: space-between;
-    width: 100%;*/
   }
+
   .searchbox {
     display: none;
   }
+
   .home-page__banner {
     display: none;
   }
@@ -1484,6 +1386,7 @@ footer {
   .home-page__last-deal .grid__row {
     flex-direction: column;
   }
+
   .home-page__last-deal .grid__row .grid__col-4 {
     width: 100%;
     margin-bottom: 16px;
@@ -1512,60 +1415,61 @@ footer {
   }
 
   .home-page__destination .grid__row .grid__col-3 {
-   width: 50%;
-  }
-
-  .footer-top .grid__row .grid__col-3  {
     width: 50%;
   }
+
+  .footer-top .grid__row .grid__col-3 {
+    width: 50%;
+  }
+
   .footer-top .container {
     padding: 0 15px;
   }
 
   .securi-payment {
     display: block;
-    /*float: right;*/
   }
 
   .payment {
     padding-left: 0;
   }
+
   .footer-top .grid__col-6.footer-top__block {
     width: 100%;
   }
 
-  .payment img { 
+  .payment img {
     box-sizing: unset;
     padding: 8px 22px;
   }
+
   .home-page__explore-tour {
     display: none;
   }
-  
+
   .social {
     width: 90%;
     flex-wrap: wrap;
   }
-
 }
 
 /* Tablet -PC low resolution */
 @media (min-width: 740px) and (max-width: 1023px) {
-
   .main-section > .container {
     max-width: 739px;
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
   }
+
   .navbar-collapse {
     display: none;
-    /*justify-content: space-between;
-    width: 100%;*/
   }
+
   .searchbox {
     display: none;
   }
+
   .home-page__banner {
     display: none;
   }
@@ -1577,6 +1481,7 @@ footer {
   .home-page__last-deal .grid__row {
     flex-direction: column;
   }
+
   .home-page__last-deal .grid__row .grid__col-4 {
     width: 100%;
     margin-bottom: 16px;
@@ -1605,65 +1510,64 @@ footer {
   }
 
   .home-page__destination .grid__row .grid__col-3 {
-   width: 50%;
-  }
-
-  .footer-top .grid__row .grid__col-3  {
     width: 50%;
   }
+
+  .footer-top .grid__row .grid__col-3 {
+    width: 50%;
+  }
+
   .footer-top .container {
     padding: 0 15px;
   }
 
   .securi-payment {
     display: flex;
-    /*float: right;*/
   }
 
   .mb-app {
     justify-content: space-around;
   }
 
-
   .payment {
     padding-left: 40px;
     width: 300px;
     max-width: 300px;
   }
+
   .footer-top .grid__col-6.footer-top__block {
     width: 100%;
   }
 
-  .payment img { 
+  .payment img {
     box-sizing: unset;
     padding: 8px 22px;
   }
+
   .home-page__explore-tour {
     display: block;
   }
-  
+
   .social {
     width: 90%;
     flex-wrap: wrap;
   }
-
 }
 
 /* Large screen*/
-
-
 @media (min-width: 1024px) and (max-width: 1113px) {
   .searchbox {
     margin-top: -90px;
   }
+
   .navbar-collapse .navbar-nav {
     padding: 0 0 0 10px;
   }
+
   .nav-item {
     margin: 0 0 0 0;
   }
 }
-
 
 @media (min-width: 1113px) and (max-width: 1600px) {
   .searchbox {
